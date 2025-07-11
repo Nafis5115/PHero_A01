@@ -26,6 +26,8 @@ body {
 
     align-items: center;
 
+    
+
 }
 
 
@@ -75,6 +77,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: auto;
+    max-width: 1350px;
     align-items: center;
 }
 
@@ -100,7 +103,12 @@ body {
 
 }
 
-.action-section img,
+.action-section img{
+    margin-top: 6px;
+    border-radius: 32px;
+    max-width: 100%;
+    margin-right: 22px; 
+}
 .focus img {
     margin-top: 6px;
     border-radius: 32px;
@@ -111,8 +119,8 @@ body {
 .stats {
     background-color: #e7e8ff;
     padding: 2rem 0;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 65px;
+    margin-right: 65px;
     border-radius: 16px;
 }
 
@@ -197,7 +205,7 @@ body {
 
 .testimonials {
     padding: 3rem 0;
-
+    
 }
 
 .testimonial-cards {
@@ -232,8 +240,8 @@ body {
     padding: 3rem 0;
     background-color: #ffffff;
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 65px;
+    margin-right: 65px;
     border-radius: 8px;
 }
 
@@ -252,6 +260,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: auto;
+    max-width: 1350px;
 }
 
 .contact-form {
