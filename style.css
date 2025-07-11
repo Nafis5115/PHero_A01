@@ -1,0 +1,295 @@
+.raleway-primaryFont {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.6;
+    background-color: #f7f8ff;
+    color: #111;
+}
+
+.container {
+    max-width: 1100px;
+
+    padding: 2rem;
+
+    align-items: center;
+
+}
+
+
+
+.logo {
+    color: #4c4cff;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4c4cff;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3737ff;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(76, 76, 255, 0.4);
+}
+
+.btn.primary {
+    margin-top: 1rem;
+    padding: 0.8rem 1.6rem;
+    font-size: 1.1rem;
+}
+
+.btn.small {
+    padding: 0.4rem 1rem;
+    font-size: 0.9rem;
+    margin: 0px;
+}
+
+.header {
+    background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+    background-color: #fff;
+    padding-bottom: 2rem;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.hero {
+
+
+    align-items: center;
+    text-align: center;
+
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.action-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+
+}
+
+.action-section img,
+.focus img {
+    margin-top: 6px;
+    border-radius: 32px;
+    max-width: 100%;
+
+}
+
+.stats {
+    background-color: #e7e8ff;
+    padding: 2rem 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 16px;
+}
+
+
+
+.card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 0 1px #e6e8f0;
+    width: 300px;
+    text-align: left;
+}
+
+.stars {
+    color: #facc15;
+    font-size: 18px;
+}
+
+.card h4 {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0 8px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #333;
+    margin: 0 0 16px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+}
+
+.reviewer img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.reviewer-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewer-name {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.review-date {
+    font-size: 13px;
+    color: #888;
+}
+
+.stat-grid {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.stat-grid h2 {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 2rem;
+    color: #4c4cff;
+}
+
+.testimonial-container {
+    margin: auto;
+    text-align: center;
+}
+
+.testimonial-container h3 {
+    font-size: 36px;
+}
+
+.testimonials {
+    padding: 3rem 0;
+
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    width: 300px;
+}
+
+.focus-container {
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.focus-container h1 {
+
+    font-size: 46px;
+
+}
+
+.focus {
+    padding: 3rem 0;
+    background-color: #ffffff;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 8px;
+}
+
+.contact {
+    padding: 4rem 0;
+    background-color: #f9f9ff;
+}
+
+.contact-title {
+ 
+    font-size: xx-large;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form .submit-btn {
+    border: none;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.footer-links a {
+    margin: 0 1rem;
+    color: #4c4cff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
